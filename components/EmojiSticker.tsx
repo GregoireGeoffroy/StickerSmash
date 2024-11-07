@@ -51,7 +51,7 @@ export default function EmojiSticker({ imageSize, stickerSource }: Props) {
 
   
     return (
-    <GestureDetector gesture={doubleTap}>
+    <GestureDetector gesture={drag}>
         <Animated.View style={[containerStyle, { top: -350 }]}>
             <GestureDetector gesture={doubleTap}>
                 <Animated.Image
