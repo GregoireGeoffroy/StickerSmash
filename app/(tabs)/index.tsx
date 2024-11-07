@@ -19,14 +19,14 @@ export default function Index() {
       alert('You did not select any image.');
     }
   };
-  
+
   return (
     <View style={styles.container}>
       <View style={styles.imageContainer}>
         <ImageViewer imgSource={PlaceholderImage} />
       </View>
       <View style={styles.footerContainer}>
-        <Button theme="primary" label="Choose a photo" />
+        <Button theme="primary" label="Choose a photo" onPress={pickImageAsync} />
         <Button label="Use this photo" />
       </View>
     </View>
