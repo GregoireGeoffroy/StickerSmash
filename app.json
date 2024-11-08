@@ -13,13 +13,15 @@
       "backgroundColor": "#25292e"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gregoiregeoffroy.StickerSmash"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gregoiregeoffroy.StickerSmash"
     },
     "web": {
       "bundler": "metro",
